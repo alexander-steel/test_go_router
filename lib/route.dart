@@ -66,10 +66,10 @@ class PageThreeRoute extends GoRouteData {
 }
 
 @immutable
-class PageFiveRoute extends GoRouteData {
+class PageFourRoute extends GoRouteData {
   final String initialLoadUrl;
 
-  const PageFiveRoute(this.initialLoadUrl);
+  const PageFourRoute(this.initialLoadUrl);
 
   @override
   Widget build(BuildContext context, GoRouterState state) {
@@ -80,10 +80,10 @@ class PageFiveRoute extends GoRouteData {
 }
 
 @immutable
-class PageFourRoute extends GoRouteData {
+class PageFiveRoute extends GoRouteData {
   final String initialLoadUrl;
 
-  const PageFourRoute(this.initialLoadUrl);
+  const PageFiveRoute(this.initialLoadUrl);
 
   @override
   Widget build(BuildContext context, GoRouterState state) {
